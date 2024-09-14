@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra Tech-Store</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="contenedor">
+        <aside>
+            <header>
+                <h1 class="logo">Tech-Store</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="./index.html" class="boton-carrito">Seguir comprando</a></il>
+                </ul>
+            </nav>
+            <footer>
+                <p>todos los derechos reservados</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio</p>
+                    <div id="carrito-productos"  class="carrito-productos disabled">
+
+                        
+                    </div>
+            
+
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total: </p>
+                            <p id="total"></p>
+                        </div>
+                        <button class="carrito-acciones-comprar">Comprar Ahora</button>
+                    </div>
+                </div>
+                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas Gracias por tu compra.</p>
+            </div>
+
+        </main>
+    </section>
+</body>
+<script src="./carrito.js"></script>
+</html>

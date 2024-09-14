@@ -1,51 +1,41 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
     <title>Compra Tech-Store</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="contendor-titulo">
-        <div class="titulo">
-            <h1>Compra Tech-Store</h1>
-        </div>
-    </div>
+    <section class="contenedor">
+        <aside>
+            <header>
+                <h1 class="logo">Tech-Store</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li><button  id="todos" class="boton-menu boton-producto active">Todos los productos</button></li>
+                    <li><button  id="componentes" class="boton-menu boton-producto">Componentes</button></li>
+                    <li><button  id="perifericos" class="boton-menu boton-producto">Perifericos</button></li>
+                    
+                    <li><a href="./carrito.html" class=" boton-carrito">Carrito</a><span id="cantidad"> 0 </span></li>
+                </ul>
+            </nav>
+            <footer>
+                <p>todos los derechos reservados</p>
+            </footer>
+        </aside>
+        <main>
+            <h2  id="titulo-principal" class="titulo-principal" >Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
 
-    <div class="container">
-        <div class="item">
-            <img src="./fotos/Intel-Core-i9-2.jpg" alt="procesador">
-            <h2>Procesador</h2>
-            <h3>$ 3000</h3>
-            <h3 class="compra">Añadir al carrito</h3>
-        </div>
-        <div class="item">
-            <img src="./fotos/motherboard-for-computer.webp" alt="procesador">
-            <h2>MotherBoard</h2>
-            <h3>$ 1500</h3>
-            <h3 class="compra">Añadir al carrito</h3>
-        </div>
-        <div class="item">
-            <img src="./fotos/D_NQ_NP_641811-MLA75192411373_032024-O.webp" alt="procesador">
-            <h2>Fuente</h2>
-            <h3>$ 700</h3>
-            <h3 class="compra">Añadir al carrito</h3>
-        </div>
-        <div class="item">
-            <img src="./fotos/Cómo-entender-las-especificaciones-de-la-tarjeta-gráfica-3.jpg" alt="procesador">
-            <h2>Tarjeta Grafica</h2>
-            <h3>$ 4500</h3>
-            <h3 class="compra">Añadir al carrito</h3>
-        </div>
-        <div class="item">
-            <img src="./fotos/mouse-logitech-g203-gaming-lightsync-black-910005793-0.jpg" alt="procesador">
-            <h2>Mouse</h2>
-            <h3>$ 50</h3>
-            <h3 class="compra">Añadir al carrito</h3>
-        </div>
-    </div>
+            </div>
+        </main>
+    </section>
 
 </body>
-<script src="./index.js"></script>
+<script src="./main.js"></script>
 </html>
