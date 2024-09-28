@@ -1,0 +1,52 @@
+[
+    {
+        "id": "producto-01",
+        "titulo": "Tarjeta Grafica",
+        "imagen": "./fotos/foto1.jpg",
+        "categoria": {
+            "nombre": "Componentes",
+            "id": "componentes"
+        },
+        "precio": 4500
+    },
+    {
+        "id": "producto-02",
+        "titulo": "Fuente de Energia",
+        "imagen": "./fotos/foto2.jpg",
+        "categoria": {
+            "nombre": "Componentes",
+            "id": "componentes"
+        },
+        "precio": 700
+    },
+    {
+        "id": "producto-03",
+        "titulo": "Procesador",
+        "imagen": "./fotos/foto3.jpg",
+        "categoria": {
+            "nombre": "Componentes",
+            "id": "componentes"
+        },
+        "precio": 3000
+    },
+    {
+        "id": "producto-04",
+        "titulo": "Mother Board",
+        "imagen": "./fotos/foto4.jpg",
+        "categoria": {
+            "nombre": "Componentes",
+            "id": "componentes"
+        },
+        "precio": 800
+    },
+    {
+        "id": "producto-05",
+        "titulo": "Mouse",
+        "imagen": "./fotos/foto5.jpg",
+        "categoria": {
+            "nombre": "Perifericos",
+            "id": "perifericos"
+        },
+        "precio": 300
+    }
+]
